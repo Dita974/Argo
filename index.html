@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>The Argo</title>
+  </head>
+  <body>
+     <!--------------------------------HEADER--------------------------->
+    <header>
+      <div class="logo">
+      <img src="assets/logo.png" alt=logo/>    
+      </div>  
+      <nav> 
+        <ul>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#heroes">Heroes</a></li>
+          <li><a href="#inventory">Inventory</a></li>
+          <li><a href="#contactForm">Contact Form</a></li>
+        </ul>
+      </nav>  
+    </header>
+  <!----------------------------------MAIN--------------------------->
+    <section id="welcome">
+      <h1>Welcome to The Argo Ship</h1>
+      <img src="./assets/ship_picture.jpg" alt="Photo du navire Argo">
+    </section>
+    <section id="history">
+      <h2>History of The Argo Ship</h2>     
+        <p>
+          Argo was constructed by the shipwright Argus, and its crew were especialy
+          protected by the goddess Hera...<br />According to a variety of sources
+          of the legend, Argo was said to have been planned or constructed with
+          the help of Athena. <br />According to certain sources, Argo was the
+          first ship to sail the seas.
+        </p>
+    </section>
+    <section id="heroes">      
+      <h2>Our Argo Heroes</h2>
+      <div  class="flex-container"> 
+        <div class="card">
+          <img src="assets/hero-ares.png" alt="Ares" />
+          <p class="name">Ares</p>
+          <p>We shall have fun!</p>
+        </div>
+        <div class="card">
+          <img src="assets/hero-artemis.png" alt="Artemis" />
+          <p class="name">Artemis</p>
+          <p>Know Thyself.</p>
+        </div>
+        <div class="card">
+          <img src="assets/hero-hercules.png" alt="Hercules" />
+          <p class="name">Hercules</p>
+          <p>I am on my way. I can go the distance.<br />
+             I don't care how far, somehow I will be strong. </p> 
+        </div>
+      </div>
+    </section>
+    <section id="inventory">
+      <h2>Our Inventory</h2>    
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ITEM</th>
+              <th>QUANTITY</th>
+              <th>DAYS LEFT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>wine barrels</td>
+              <td>20</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>bread</td>
+              <td>200</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>water barrels</td>
+              <td>30</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>sandals</td>
+              <td>59</td>
+              <td>/</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+<!---------------------------------FOOTER--------------------------->    
+    <form id="contactForm">
+      <h2>Contact Form</h2>
+      <div class="form">
+        <label for="first name">First Name :</label>
+        <input type="text" id="first name" /><br />
+        <br>
+        <label for="last name">Last Name :</label>
+        <input type="text" id="last name" /><br />
+        <br>
+        <label for="email">Your Email :</label>
+        <input type="text" id="email" /><br />
+        <br>
+        <label for="message">Your Message :</message>
+        <textarea id="message"></textarea>
+        <br><br>
+        <button type="button" id="submit">Submit</button>
+        
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
