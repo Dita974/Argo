@@ -22,6 +22,7 @@ header ul {
   align-items: center;
   font-size: 1.2em;
   height: 50px;
+  list-style: none;
 }
 li a {
   color: white;
@@ -40,7 +41,7 @@ h1 {
   padding-top: 50px;
   position: absolute;
   top: 80%;
-  left: 25%;
+  left: 20%;
   z-index: 5;
   word-spacing: 3rem;
   letter-spacing: 1rem;
